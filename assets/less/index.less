@@ -1,0 +1,56 @@
+@import "components";
+.index-w  .navbar{
+    margin-bottom: 0;
+}
+.section-body {
+    .wh100p();
+    background: url("../images/s1.jpg") no-repeat center;
+    background-size: cover;
+}
+.loginBtn {
+    position: absolute;
+    top: 8px;
+    right: 74px;
+}
+.registBtn {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}
+.loginPanel,
+.registPanel {
+    @t: 50%;
+    @l: 50%;
+    position: fixed;
+    top: @t;
+    left: @l;
+    padding: 25px;
+    transform: translate(-@l,-@t);
+    background-color: #fff;
+    border-radius: 10px;
+}
+.form-w h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.closeBtn {
+    display: block;
+    width:26px;
+    height:26px;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    line-height: 22px;
+    text-align: center;
+    border: 1px solid #bababa;
+    border-radius: 50%;
+    color:#bababa;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.closeBtn:hover {
+    color: red;
+    border-color: red;
+}

@@ -1,0 +1,61 @@
+.cgreen {
+  color: green;
+}
+.cred {
+  color: red;
+}
+#container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.jpanel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  height: 800px;
+  min-height: 1200px;
+}
+.jpanel .navbar {
+  border-radius: 0;
+}
+.jpanel {
+  position: relative;
+}
+.user-w {
+  position: absolute;
+  top: 10px;
+  right: 50px;
+}
+.c-title-w {
+  padding: 0 20px 20px 20px;
+  overflow: auto;
+}
+.c-title-w h3 {
+  float: left;
+  margin-top: 0;
+}
+.c-title-w .toListBtn {
+  margin-right: 30px;
+  float: right;
+  font-size: 18px;
+}
+.publish-form {
+  width: 670px;
+  padding: 20px;
+  margin-left: 20px;
+  background-color: aliceblue;
+  overflow: hidden;
+}
+.publish-form .p-name {
+  width: 76%;
+}
+.publish-form .publishBtn {
+  width: 45%;
+  margin-left: 15px;
+}
+.form-control-inline {
+  width: 36.5%;
+  display: inline-block;
+}
+/*# sourceMappingURL=sponsorPublish.css.map */

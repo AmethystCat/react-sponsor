@@ -1,0 +1,64 @@
+@import "components";
+
+.hide {
+  display: none;
+}
+.detail-tab-panel {
+  @p: 20px;
+  @m: 20px;
+  margin: @m;
+  padding: @p;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.publish-form {
+  width: 650px;
+  padding: 20px 20px 20px 0;
+  overflow: hidden;
+  .p-name {
+    width: 76%;
+  }
+  .publishBtn {
+    width: 45%;
+    margin-left: 15px;
+  }
+}
+.form-control-inline {
+  width: 36.5%;
+  display: inline-block;
+}
+.section-state {
+  margin-top: 15px;
+  overflow: auto;
+  .confirm-state-w {
+    float: left;
+  }
+  .sponsor-state {
+    padding-left: 20px;
+    color: green;
+  }
+  .search-w {
+    float: right;
+    display: inline-block;
+    width: 250px;
+    vertical-align: middle;
+  }
+}
+.section-table-w {
+  .table {
+    thead > tr {
+      background: #ccc;
+    }
+  }
+  .pageNation-w {
+    padding: 5px;
+    text-align: right;
+  }
+}
+
+.allowBtn,
+.s-allowed,
+.s-refuse {
+  padding-right: 20px;
+}

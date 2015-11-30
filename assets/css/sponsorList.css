@@ -1,0 +1,78 @@
+.cgreen {
+  color: green;
+}
+.cred {
+  color: red;
+}
+#container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.jpanel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  height: 800px;
+  min-height: 1200px;
+}
+.jpanel .navbar {
+  border-radius: 0;
+}
+.jpanel {
+  position: relative;
+}
+.user-w {
+  position: absolute;
+  top: 10px;
+  right: 50px;
+}
+.c-title-w {
+  padding: 0 20px 20px 20px;
+  overflow: auto;
+}
+.c-title-w h3 {
+  float: left;
+  margin-top: 0;
+}
+.c-title-w .toListBtn {
+  margin-right: 30px;
+  float: right;
+  font-size: 18px;
+}
+.dropdown-menu {
+  min-width: 105px;
+}
+.section-list-tools {
+  padding: 0 20px;
+  margin-bottom: 20px;
+  overflow: auto;
+}
+.section-list-tools .c-title {
+  float: left;
+  margin: 0;
+  background: #fff;
+}
+.section-list-tools .section-operate {
+  float: right;
+  min-width: 450px;
+}
+.section-list-tools .section-operate .search-w {
+  display: inline-block;
+  width: 250px;
+  vertical-align: middle;
+}
+.section-list-tools .section-operate button {
+  margin-left: 20px;
+}
+.section-table-w {
+  padding: 0 20px 20px 20px;
+}
+.section-table-w .table thead > tr {
+  background: #ccc;
+}
+.section-table-w .pageNation-w {
+  padding: 5px;
+  text-align: right;
+}
+/*# sourceMappingURL=sponsorList.css.map */

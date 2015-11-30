@@ -1,0 +1,97 @@
+.cgreen {
+  color: green;
+}
+.cred {
+  color: red;
+}
+#container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.jpanel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  height: 800px;
+  min-height: 1200px;
+}
+.jpanel .navbar {
+  border-radius: 0;
+}
+.jpanel {
+  position: relative;
+}
+.user-w {
+  position: absolute;
+  top: 10px;
+  right: 50px;
+}
+.c-title-w {
+  padding: 0 20px 20px 20px;
+  overflow: auto;
+}
+.c-title-w h3 {
+  float: left;
+  margin-top: 0;
+}
+.c-title-w .toListBtn {
+  margin-right: 30px;
+  float: right;
+  font-size: 18px;
+}
+.hide {
+  display: none;
+}
+.detail-tab-panel {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.publish-form {
+  width: 650px;
+  padding: 20px 20px 20px 0;
+  overflow: hidden;
+}
+.publish-form .p-name {
+  width: 76%;
+}
+.publish-form .publishBtn {
+  width: 45%;
+  margin-left: 15px;
+}
+.form-control-inline {
+  width: 36.5%;
+  display: inline-block;
+}
+.section-state {
+  margin-top: 15px;
+  overflow: auto;
+}
+.section-state .confirm-state-w {
+  float: left;
+}
+.section-state .sponsor-state {
+  padding-left: 20px;
+  color: green;
+}
+.section-state .search-w {
+  float: right;
+  display: inline-block;
+  width: 250px;
+  vertical-align: middle;
+}
+.section-table-w .table thead > tr {
+  background: #ccc;
+}
+.section-table-w .pageNation-w {
+  padding: 5px;
+  text-align: right;
+}
+.allowBtn,
+.s-allowed,
+.s-refuse {
+  padding-right: 20px;
+}
+/*# sourceMappingURL=sponsorDetail.css.map */
