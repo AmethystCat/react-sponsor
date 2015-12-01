@@ -18,7 +18,7 @@ var handleError = function(){
 	var args = Array.prototype.slice.call(arguments);
 	notify.onError({
 		title: 'compile error',
-		message: '<%= error.message>'
+		message: '<%= error.message %>'
 	}).apply(this,args);
 	this.emit('close');
 	this.emit('end');
