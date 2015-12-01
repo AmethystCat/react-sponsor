@@ -20,6 +20,7 @@ var Regist = React.createClass({
                         <span className="closeBtn" id="registClose" onClick={this.closeHandler}>x</span>
                         <h3>注册coopreration witness</h3>
                         <form>
+                        <div className="error-mess">asdj</div>
                         <div className="form-group">
                             <input type="password" className="form-control" id="username" placeholder="用户名"/>
                           </div>

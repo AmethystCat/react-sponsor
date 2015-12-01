@@ -4,8 +4,20 @@
 }
 .section-body {
     .wh100p();
-    background: url("../images/s1.jpg") no-repeat center;
+    //background: url("../images/s1.jpg") no-repeat center;
     background-size: cover;
+}
+.logo-text {
+    @w: 930px;
+    @h: 142px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -@w/2;
+    margin-top: -@h;
+    font-size: 100px;
+    font-family: cursive;
+    text-align: center;
 }
 .loginBtn {
     position: absolute;
@@ -28,6 +40,7 @@
     transform: translate(-@l,-@t);
     background-color: #fff;
     border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
 }
 .form-w h3 {
     margin-top: 10px;
